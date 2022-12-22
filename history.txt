@@ -1,0 +1,20 @@
+jobs
+sleep 20 & sleep 3 & echo hi
+fg 2
+sleep 10 & echo hi
+fg 1
+exit
+sleep 10 & sleep 20 & echo hi
+jobs
+exit
+sleep 4
+exit
+sleep 4
+jobs
+echo hi ; sleep 4 &b sleep 5 & echo i
+echo hi ; sleep 4 ; sleep 5 & sleep 6 & echo i
+jobs
+exit
+sleep 4 & echo 1
+fg 1
+exit
